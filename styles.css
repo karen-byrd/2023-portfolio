@@ -208,7 +208,7 @@ p {
 
 .design {
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
+    color: #0047AC;
     font-size: 3rem;
     text-decoration: underline;
 }
@@ -274,6 +274,9 @@ p {
     font-family: "Pacifico", serif;
     color: #fff;
     background-color: #0047AC;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 20px;
 }
 
 .contact-address, .city-state, .contact-email, .contact-phone {
@@ -289,6 +292,7 @@ p {
     font-family: 'Montserrat', san-serif;
     font-size: 3rem;
     text-decoration: underline;
+    text-align: center;
 }
 
 
