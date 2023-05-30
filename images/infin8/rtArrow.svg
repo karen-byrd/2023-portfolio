@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-bbox="0 0 271 82" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271 82" height="82" width="271" data-type="ugc">
+    <g>
+        <path fill="url(#6b811c57-89e3-45a3-9fd4-e5a3f9e0dd0c)" d="m271 41-71 41V0l71 41Z"/>
+        <path fill="url(#6a4f1b99-963c-4299-9791-e3657dfaa92d)" d="M29.419 22H200v38H0V45.744C0 32.62 13.174 22 29.419 22Z"/>
+        <defs fill="none">
+            <linearGradient gradientUnits="userSpaceOnUse" y2="17.88" x2="151.853" y1="64.87" x1="367.355" id="6b811c57-89e3-45a3-9fd4-e5a3f9e0dd0c">
+                <stop stop-opacity="0" stop-color="#BDBFFC"/>
+                <stop stop-opacity=".8" stop-color="#292EA3" offset="1"/>
+            </linearGradient>
+            <linearGradient gradientUnits="userSpaceOnUse" y2="-140.972" x2="-26.307" y1="136.47" x1="240.827" id="6a4f1b99-963c-4299-9791-e3657dfaa92d">
+                <stop stop-opacity="0" stop-color="#BDBFFC"/>
+                <stop stop-opacity=".8" stop-color="#292EA3" offset="1"/>
+            </linearGradient>
+        </defs>
+    </g>
+</svg>

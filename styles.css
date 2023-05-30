@@ -59,10 +59,16 @@ p {
     text-align: center;
 }
 
+.projectTitle-pic {
+    background-color: #fff;
+    height: 500px;
+}
+
 /* navigation */
 
 .nav-title {
     letter-spacing: 20px;
+    font-family: "Pacifico", serif;
 }
 
 .ul-container {
@@ -99,7 +105,8 @@ p {
 }
 
 .btn:hover {
-    background-color: #ff7b0d;
+    background-color: #0047AC;
+    color: #ffd301;
 }
 
 .btn-about {
@@ -185,7 +192,26 @@ p {
     margin-bottom: .5rem;
 }
 
+/* websites */
+.website-container {
+    background-color: #0047AC;
+}
+
+.website {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
 /* Design page navigation */
+
+.design {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    text-decoration: underline;
+}
 
 .design-nav-ul {
     list-style-type: none;
@@ -242,6 +268,27 @@ p {
     position: relative;
     top: 2rem;
     left: 37rem;
+}
+
+.contact-container {
+    font-family: "Pacifico", serif;
+    color: #fff;
+    background-color: #0047AC;
+}
+
+.contact-address, .city-state, .contact-email, .contact-phone {
+    font-size: 1.5rem;
+}
+
+.contact {
+    color: #fff;
+}
+
+.contact-me {
+    color: #fff;
+    font-family: 'Montserrat', san-serif;
+    font-size: 3rem;
+    text-decoration: underline;
 }
 
 
