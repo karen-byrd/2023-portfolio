@@ -275,16 +275,18 @@ p {
     color: #fff;
     background-color: #0047AC;
     display: grid;
-    grid-template-columns: 3fr 3fr;
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
 }
 
 .contact-address, .city-state, .contact-email, .contact-phone {
     font-size: 1.5rem;
 }
 
-.contact {
+#contact {
     color: #fff;
+    grid-column-start: span 2;
 }
 
 .contact-me {
@@ -293,6 +295,29 @@ p {
     font-size: 3rem;
     text-decoration: underline;
     text-align: center;
+}
+
+.my-info {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.label-name {
+    font-size: 1.5rem;
 }
 
 
