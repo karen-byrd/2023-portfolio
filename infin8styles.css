@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Montserrat:wght@400;600;700;900&family=Pacifico&display=swap');
+
+.projectTitle-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.project-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.project-jobs {
+    margin-left: 0;
+    margin-top: -3rem;
+    margin-bottom: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.project-about, .project-uses {
+    margin-left: 1.5rem;
+    line-height: 2.5rem;
+    width: 90%;
+}
+
+.flow {
+    font-family: "Montserrat", sans-serif;
+    color: #ffb921;
+    display: inline-block;
+}
+
+.flow:hover {
+    color: #0047ac;
+}
+
+.arrow {
+    width: 100px;
+}
+
+.nav-flow {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.empathize-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.asia {
+    transform: rotate(10deg);
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+
+.mike {
+    transform: rotate(-15deg);
+    margin-bottom: -5rem;
+}
+
+.list-container {
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 5rem;
+    border: 1px solid #ffb921;
+    box-shadow: 2px 2px 3px #ffb921;
+}
+
+.list-items {
+    margin-left: 15rem;
+}
+
+ul p {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+iframe {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: block;
+}
+
+.pic-ideate p {
+    margin-top: -10rem;
+    width: 40%;
+}
+
+.journey {
+    width: 65%;
+    margin-top: -5rem;
+}
+
+.hmw {
+    box-shadow: 3px 3px 3px #ffb921;
+    transform: rotate(30deg);
+}
+
+.story-boarding {
+    height: 90%;
+    box-shadow: 3px 3px 3px #ffb921;
+    margin-left: 200px;
+    transform: rotate(-25deg);
+}
+
+.define1 {
+    width: 50%;
+    margin-top: -8rem;
+    margin-right: 3rem;
+}
+
+.ideate {
+    margin-top: 8rem;
+}
+
+.ideate-sketch {
+    width: 200px;
+}
+
+.sketch1 {
+    margin-left: 100px;
+    transform: rotate(30deg);
+    margin-top: 100px;
+}
+
+.sketch2 {
+    border: 6px solid black;
+    margin-bottom: 50px;
+}
+
+.ideate-pics {
+    width: 300px;
+}
+
+.upcoming {
+    margin-top: 4rem;
+    margin-left: 300px;
+    transform: rotate(25deg);
+}
+
+.search {
+    margin-right: 200px;
+}
+
+.perks {
+    transform: rotate(-25deg);
+}
+
+.favorites {
+    transform: rotate(25deg);
+    margin-left: 600px;
+    margin-top: 250px;
+}
+
+.testing-info, .testing {
+    margin-left: 20px;
+    line-height: 3rem;
+}
+
