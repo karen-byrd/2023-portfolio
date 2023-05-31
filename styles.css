@@ -271,17 +271,46 @@ p {
 }
 
 .contact-container {
-    font-family: "Pacifico", serif;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 10px;
     color: #fff;
     background-color: #0047AC;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    width: 100%;
 }
 
-.contact-address, .city-state, .contact-email, .contact-phone {
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    width: 60%;
+    border-left: 5px solid #fff;
+    margin-left: 3em;
+    letter-spacing: 10px;
+}
+
+label, input, textarea {
+    margin-left: 1em;
+    margin-top: 15px;
     font-size: 1.5rem;
+}
+
+form button {
+    margin-top: .75em;
+    margin-left: 12em;
+    width: 50%;
+
+}
+
+.my-info {
+    margin-top: -1rem;
+    margin-left: 3rem;
+}
+
+
+
+.contact-address, .city-state, .contact-email, .contact-phone {
+    font-size: 1.75rem;
 }
 
 #contact {
@@ -291,35 +320,12 @@ p {
 
 .contact-me {
     color: #fff;
-    font-family: 'Montserrat', san-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 3rem;
     text-decoration: underline;
-    text-align: center;
+    margin-left: 1em;
+    margin-top: -.05em;
 }
-
-.my-info {
-    grid-column-start: 1;
-    grid-column-end: span 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    
-
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-
-}
-
-.label-name {
-    font-size: 1.5rem;
-}
-
 
 
 /* book style */
